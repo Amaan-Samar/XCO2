@@ -2,3 +2,4 @@ image_results/
 downloads/
 CO2_Files/
 __pycache__/
+.env
