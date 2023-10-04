@@ -1,0 +1,943 @@
+{
+  "method": "search",
+  "result": {
+    "items": [
+      {
+        "AWSRegion": "us-west-2",
+        "Cloud Enabled": "true",
+        "DOIHistory": [],
+        "S3BucketAndObjectPrefixNames": [
+          "s3://gesdisc-cumulus-prod-protected/OCO2_DATA/OCO2_L2_Lite_FP.11r/"
+        ],
+        "S3CredentialsAPIDocumentationURL": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+        "S3CredentialsAPIEndpoint": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+        "_id": "62fcf88d9b942d037e96938c",
+        "abstract": "Version 11r is the current version of the data set. Older versions will no longer be available and are superseded by Version 11r.\n\nThe OCO-2 Lite files contain bias-corrected XCO2 along with other select fields aggregated as daily files.\n\nThe Orbiting Carbon Observatory is the first NASA mission designed to collect space-based measurements of atmospheric carbon dioxide with the precision, resolution, and coverage needed to characterize the processes controlling its buildup in the atmosphere. The OCO-2 project uses the LEOStar-2 spacecraft that carries a single instrument. It incorporates three high-resolution spectrometers that make coincident measurements of reflected sunlight in the near-infrared CO2 near 1.61 and 2.06 micrometers and in molecular oxygen (O2) A-Band at 0.76 micrometers.",
+        "browseImage": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OCO/OCO_L2_Lite_FP_v11r_220331_final.png",
+        "browseImageCaption": "OCO-2 L2 Lite CO2 Column-Averaged Dry Air Mole Fraction (dry-air ppm). Disclaimer: The symbol size does not reflect the true footprint and swath width of the instrument.",
+        "dataset": {
+          "disciplines": [
+            "Atmospheric Chemistry"
+          ],
+          "id": "OCO2_L2_Lite_FP_11r",
+          "idhash": "-3049395708968953248",
+          "label": "OCO-2 Level 2 bias-corrected XCO2 and other select fields from the full-physics retrieval aggregated as daily files, Retrospective processing V11r",
+          "linkId": "OCO2_L2_Lite_FP_11r",
+          "measurements": [
+            "Atmospheric Carbon Dioxide"
+          ]
+        },
+        "doi": "10.5067/5Q8JLZL1VD4A",
+        "endDate": 1680307200000,
+        "features": [
+          "Cloud Enabled"
+        ],
+        "fileSize": "57 MB per file",
+        "fileSizeComputed": 57000000,
+        "fileSizePredicted": 22891856.19354248,
+        "format": {
+          "label": "netCDF",
+          "labelOriginal": "netCDF",
+          "value": "netCDF"
+        },
+        "granulesPerDayPredicted": 1.0153846153846153,
+        "keywords": [
+          "OCO2_L2_Lite_FP_11r"
+        ],
+        "link": "https://disc.gsfc.nasa.gov/datacollection/OCO2_L2_Lite_FP_11r.html",
+        "meta": {
+          "difEditor": "Carlee Loeser",
+          "difEditorEmail": "carlee.f.loeser@nasa.gov",
+          "difLastUpdated": 1682602961316,
+          "ingestDate": 1696261006680,
+          "ingestLog": {},
+          "ingestSource": "PROD"
+        },
+        "processingLevel": "2",
+        "projectLong": [
+          "Orbiting Carbon Observatory-2"
+        ],
+        "projectShort": [
+          "OCO-2"
+        ],
+        "references": {
+          "citations": [
+            "OCO-2/OCO-3 Science Team, Vivienne Payne, Abhishek Chatterjee (2020), OCO-2 Level 2 bias-corrected XCO2 and other select fields from the full-physics retrieval aggregated as daily files, Retrospective processing V11r, Greenbelt, MD, USA, Goddard Earth Sciences Data and Information Services Center (GES DISC), Accessed: [Data Access Date], 10.5067/5Q8JLZL1VD4A"
+          ]
+        },
+        "relatedURLs": {
+          "Data": [
+            {
+              "label": "Access the data via HTTP",
+              "link": "https://oco2.gesdisc.eosdis.nasa.gov/data/OCO2_DATA/OCO2_L2_Lite_FP.11r/",
+              "priority": 0,
+              "subgroup": "Online Archive",
+              "subtype": "Online Archive",
+              "type": "GET DATA"
+            },
+            {
+              "label": "Access the data via the OPeNDAP protocol.",
+              "link": "https://oco2.gesdisc.eosdis.nasa.gov/opendap/OCO2_L2_Lite_FP.11r/contents.html",
+              "priority": 0,
+              "subgroup": "Web Services",
+              "subtype": "OPENDAP",
+              "type": "USE SERVICE API"
+            },
+            {
+              "label": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+              "link": "https://search.earthdata.nasa.gov/search?q=OCO2_L2_Lite_FP",
+              "priority": 0,
+              "subgroup": "Search",
+              "subtype": "Earthdata Search",
+              "type": "GET DATA"
+            }
+          ],
+          "Documents": [
+            {
+              "label": "OCO-2 Project Home Page",
+              "link": "https://ocov2.jpl.nasa.gov/",
+              "priority": 0,
+              "subgroup": "General",
+              "subtype": "PROJECT HOME PAGE",
+              "type": "PROJECT HOME PAGE"
+            },
+            {
+              "label": "README document",
+              "link": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OCO/README.OCO2.pdf",
+              "priority": 0,
+              "subgroup": "User guide",
+              "subtype": "READ-ME",
+              "type": "VIEW RELATED INFORMATION"
+            },
+            {
+              "label": "User's Guide",
+              "link": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OCO/OCO2_V11_OCO3_V10_DUG.pdf",
+              "priority": 0,
+              "subgroup": "User guide",
+              "subtype": "USER'S GUIDE",
+              "type": "VIEW RELATED INFORMATION"
+            },
+            {
+              "label": "OCO_L2_ATBD.pdf",
+              "link": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OCO/OCO_L2_ATBD.pdf",
+              "priority": 0,
+              "subgroup": "User guide",
+              "subtype": "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+              "type": "VIEW RELATED INFORMATION"
+            },
+            {
+              "label": "Publications from the Science Team",
+              "link": "https://ocov2.jpl.nasa.gov/science/publications/",
+              "priority": 0,
+              "subgroup": "General",
+              "subtype": "GENERAL DOCUMENTATION",
+              "type": "VIEW RELATED INFORMATION"
+            },
+            {
+              "label": "OCO-2 Data Gaps",
+              "link": "https://disc.gsfc.nasa.gov/information/documents?title=OCO%20Known%20Data%20Issues",
+              "priority": 0,
+              "subgroup": "General",
+              "subtype": "GENERAL DOCUMENTATION",
+              "type": "VIEW RELATED INFORMATION"
+            },
+            {
+              "label": "OCO-2 Documentation",
+              "link": "https://disc.gsfc.nasa.gov/information/documents?title=OCO-2%20Documents",
+              "priority": 0,
+              "subgroup": "General",
+              "subtype": "GENERAL DOCUMENTATION",
+              "type": "VIEW RELATED INFORMATION"
+            }
+          ],
+          "Software": [
+            {
+              "label": "This software (NASA NTR-49044) retrieves a set of atmospheric/surface/instrument parameters from a simultaneous fit to spectra from multiple absorption bands. The software uses an iterative, non-linear retrieval technique (optimal estimation). After the retrieval process has converged, the software performs an error analysis. The products of the software include all quantities needed to understand the information content of the measurement, its uncertainty, and its dependence on interfering atmospheric properties.\n\nJet Propulsion Laboratory, California Institute of Technology.\nCopyright 2016 California Institute of Technology.\nU.S. Government sponsorship acknowledged.",
+              "link": "https://github.com/nasa/RtRetrievalFramework",
+              "priority": 0,
+              "subgroup": "Software",
+              "subtype": "DOWNLOAD SOFTWARE",
+              "type": "DOWNLOAD SOFTWARE"
+            }
+          ],
+          "User guide": [
+            {
+              "label": "README document",
+              "link": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OCO/README.OCO2.pdf",
+              "priority": 0,
+              "subgroup": "User guide",
+              "subtype": "READ-ME",
+              "type": "VIEW RELATED INFORMATION"
+            },
+            {
+              "label": "User's Guide",
+              "link": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OCO/OCO2_V11_OCO3_V10_DUG.pdf",
+              "priority": 0,
+              "subgroup": "User guide",
+              "subtype": "USER'S GUIDE",
+              "type": "VIEW RELATED INFORMATION"
+            },
+            {
+              "label": "OCO_L2_ATBD.pdf",
+              "link": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OCO/OCO_L2_ATBD.pdf",
+              "priority": 0,
+              "subgroup": "User guide",
+              "subtype": "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+              "type": "VIEW RELATED INFORMATION"
+            }
+          ]
+        },
+        "score": 1,
+        "services": {
+          "subset": [
+            {
+              "agentConfig": {
+                "agentId": "OpenSearch",
+                "collectionSearchUrl": "https://cmr.earthdata.nasa.gov/search/collections.json?short_name=OCO2_L2_Lite_FP&version=11r&provider=GES_DISC",
+                "source": "opensearch_connector"
+              },
+              "agentInfo": {
+                "capabilityLabels": [
+                  "Geo-spatial search"
+                ],
+                "data": {
+                  "label": "Access the data via HTTP",
+                  "link": "https://oco2.gesdisc.eosdis.nasa.gov/data/OCO2_DATA/OCO2_L2_Lite_FP.11r/"
+                },
+                "priority": 0,
+                "serviceDescription": "Generate unmodified file links directly from the archive.",
+                "serviceLabel": "Get <a href=\"https://oco2.gesdisc.eosdis.nasa.gov/data/OCO2_DATA/OCO2_L2_Lite_FP.11r/\" target=\"_blank\">Original Files</a>"
+              },
+              "capabilities": [
+                "temporal",
+                "spatial",
+                "format",
+                "service"
+              ],
+              "formats": [
+                {
+                  "label": "netCDF",
+                  "value": "netCDF",
+                  "valueOriginal": "netCDF"
+                }
+              ],
+              "osdd": "https://cmr.earthdata.nasa.gov/opensearch/granules/descriptor_document.xml?utf8=%E2%9C%93&clientId=UUI&shortName=OCO2_L2_Lite_FP&versionId=11r&dataCenter=&commit=Generate",
+              "requiredParams": [
+                "start",
+                "end"
+              ],
+              "serviceAgent": "OpenSearch",
+              "spatialModes": [
+                "bbox",
+                "circle",
+                "point"
+              ],
+              "spatialServices": [
+                "search"
+              ]
+            },
+            {
+              "agentConfig": {
+                "agentId": "SUBSET_LEVEL2",
+                "encodeFormat": true,
+                "fieldMappings": [
+                  {
+                    "matchRegExpr": "oco2\\.gesdisc\\.eosdis\\.nasa\\.gov\\/Data\\/s4pa\\/OCO2_L2_Lite_FP\\/",
+                    "substitutions": [
+                      {
+                        "substitute": "oco2\\.gesdisc\\.eosdis\\.nasa\\.gov\\/Data\\/s4pa\\/OCO2_L2_Lite_FP\\/",
+                        "with": "oco2.gesdisc.eosdis.nasa.gov/data/s4pa/OCO2_L2_Lite_FP/"
+                      }
+                    ],
+                    "type": "url"
+                  }
+                ],
+                "flags": {
+                  "gridtype": "SOUNDER",
+                  "timename": [
+                    [
+                      "UNIX",
+                      "/time"
+                    ]
+                  ]
+                },
+                "server": "https://oco2.gesdisc.eosdis.nasa.gov/",
+                "source": "httpservices_connector"
+              },
+              "agentInfo": {
+                "about": {
+                  "label": "GES DISC Level-2 Subsetter",
+                  "link": "https://disc.gsfc.nasa.gov/information/howto?title=How%20to%20Subset%20Level-2%20Data"
+                },
+                "capabilityLabels": [
+                  "Geo-spatial search and crop",
+                  "Selection of variables",
+                  "Selection of time of day",
+                  "Data presentation"
+                ],
+                "priority": 1,
+                "serviceDescription": "Generate file links supporting geo-spatial search and crop, selection of variables, selection of time of day, and data presentation, in netCDF format.",
+                "serviceLabel": "Get File Subsets using the GES DISC Subsetter"
+              },
+              "capabilities": [
+                "temporal",
+                "format",
+                "spatial",
+                "variables",
+                "diurnal",
+                "presentation",
+                "service"
+              ],
+              "dataFields": [
+                {
+                  "group": "/Auxiliary",
+                  "label": "surface_type_flipped",
+                  "value": "/Auxiliary/surface_type_flipped"
+                },
+                {
+                  "group": "/Auxiliary",
+                  "label": "xco2_quality_flag_b8 (XCO2_Quality_Flag_B8)",
+                  "value": "/Auxiliary/xco2_quality_flag_b8"
+                },
+                {
+                  "group": "/Meteorology",
+                  "label": "psurf_apriori (B9 Prior Surface Pressure)",
+                  "value": "/Meteorology/psurf_apriori"
+                },
+                {
+                  "group": "/Meteorology",
+                  "label": "psurf_apriori_o2a (B9 Band 1 Prior Surface Pressure)",
+                  "value": "/Meteorology/psurf_apriori_o2a"
+                },
+                {
+                  "group": "/Meteorology",
+                  "label": "psurf_apriori_sco2 (B9 Band 3 Prior Surface Pressure)",
+                  "value": "/Meteorology/psurf_apriori_sco2"
+                },
+                {
+                  "group": "/Meteorology",
+                  "label": "psurf_apriori_wco2 (B9 Band 2 Prior Surface Pressure)",
+                  "value": "/Meteorology/psurf_apriori_wco2"
+                },
+                {
+                  "group": "/Meteorology",
+                  "label": "windspeed_u_met (B9 Meteorology Surface Wind Speed, U Component)",
+                  "value": "/Meteorology/windspeed_u_met"
+                },
+                {
+                  "group": "/Meteorology",
+                  "label": "windspeed_v_met (B9 Meteorology Surface Wind Speed, V Component)",
+                  "value": "/Meteorology/windspeed_v_met"
+                },
+                {
+                  "group": "/Preprocessors",
+                  "label": "co2_ratio (CO2 Ratio)",
+                  "value": "/Preprocessors/co2_ratio"
+                },
+                {
+                  "group": "/Preprocessors",
+                  "label": "co2_ratio_offset_per_footprint",
+                  "value": "/Preprocessors/co2_ratio_offset_per_footprint"
+                },
+                {
+                  "group": "/Preprocessors",
+                  "label": "dp_abp (delta_surface_pressure_abp)",
+                  "value": "/Preprocessors/dp_abp"
+                },
+                {
+                  "group": "/Preprocessors",
+                  "label": "continuum_color_slice_noise_ratio_o2a",
+                  "value": "/Preprocessors/color_slice_noise_ratio_o2a"
+                },
+                {
+                  "group": "/Preprocessors",
+                  "label": "continuum_color_slice_noise_ratio_sco2",
+                  "value": "/Preprocessors/color_slice_noise_ratio_sco2"
+                },
+                {
+                  "group": "/Preprocessors",
+                  "label": "continuum_color_slice_noise_ratio_wco2",
+                  "value": "/Preprocessors/color_slice_noise_ratio_wco2"
+                },
+                {
+                  "group": "/Preprocessors",
+                  "label": "h_continuum_o2a",
+                  "value": "/Preprocessors/h_continuum_o2a"
+                },
+                {
+                  "group": "/Preprocessors",
+                  "label": "h_continuum_sco2",
+                  "value": "/Preprocessors/h_continuum_sco2"
+                },
+                {
+                  "group": "/Preprocessors",
+                  "label": "h_continuum_wco2",
+                  "value": "/Preprocessors/h_continuum_wco2"
+                },
+                {
+                  "group": "/Preprocessors",
+                  "label": "h2o_ratio (H2O Ratio)",
+                  "value": "/Preprocessors/h2o_ratio"
+                },
+                {
+                  "group": "/Preprocessors",
+                  "label": "h2o_ratio_offset_per_footprint",
+                  "value": "/Preprocessors/h2o_ratio_offset_per_footprint"
+                },
+                {
+                  "group": "/Preprocessors",
+                  "label": "max_declocking_o2a",
+                  "value": "/Preprocessors/max_declocking_o2a"
+                },
+                {
+                  "group": "/Preprocessors",
+                  "label": "max_declocking_sco2",
+                  "value": "/Preprocessors/max_declocking_sco2"
+                },
+                {
+                  "group": "/Preprocessors",
+                  "label": "max_declocking_wco2",
+                  "value": "/Preprocessors/max_declocking_wco2"
+                },
+                {
+                  "group": "/Preprocessors",
+                  "label": "xco2_strong_idp (xco2_strong)",
+                  "value": "/Preprocessors/xco2_strong_idp"
+                },
+                {
+                  "group": "/Preprocessors",
+                  "label": "xco2_weak_idp (xco2_weak)",
+                  "value": "/Preprocessors/xco2_weak_idp"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "SigmaB (SigmaB_Coefficient)",
+                  "value": "/Retrieval/SigmaB"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "albedo_o2a (Band 1 Albedo)",
+                  "value": "/Retrieval/albedo_o2a"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "albedo_sco2 (Band 3 Albedo)",
+                  "value": "/Retrieval/albedo_sco2"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "albedo_slope_o2a (Retrieved Band 1 reflectance slope (land), or slope of lambertian albedo component of BRDF (ocean))",
+                  "value": "/Retrieval/albedo_slope_o2a"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "albedo_slope_sco2 (Retrieved Band 3 reflectance slope (land), or slope of lambertian albedo component of BRDF (ocean))",
+                  "value": "/Retrieval/albedo_slope_sco2"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "albedo_slope_wco2 (Retrieved Band 2 reflectance slope (land), or slope of lambertian albedo component of BRDF (ocean))",
+                  "value": "/Retrieval/albedo_slope_wco2"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "albedo_wco2 (Band 2 Albedo)",
+                  "value": "/Retrieval/albedo_wco2"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "aod_bc (Black Carbon Optical Depth)",
+                  "value": "/Retrieval/aod_bc"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "aod_dust (Dust Aerosol Optical Depth)",
+                  "value": "/Retrieval/aod_dust"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "aod_ice (Ice Cloud Optical Depth)",
+                  "value": "/Retrieval/aod_ice"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "aod_oc (Organic Carbon Optical Depth)",
+                  "value": "/Retrieval/aod_oc"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "aod_seasalt (Sea Salt Optical Depth)",
+                  "value": "/Retrieval/aod_seasalt"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "aod_strataer (Stratospheric Aerosol Optical Depth)",
+                  "value": "/Retrieval/aod_strataer"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "aod_sulfate (Sulfate Aerosol Optical Depth)",
+                  "value": "/Retrieval/aod_sulfate"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "aod_total (Total Cloud+Aerosol Optical Depth)",
+                  "value": "/Retrieval/aod_total"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "aod_water (Water Cloud Optical Depth)",
+                  "value": "/Retrieval/aod_water"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "chi2_o2a (Band 1 Reduced Chi-Squared of L2 Fit)",
+                  "value": "/Retrieval/chi2_o2a"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "chi2_sco2 (Band 3 Reduced Chi-Squared of L2 Fit)",
+                  "value": "/Retrieval/chi2_sco2"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "chi2_wco2 (Band 2 Reduced Chi-Squared of L2 Fit)",
+                  "value": "/Retrieval/chi2_wco2"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "co2_grad_del (Change in CO2 vertical gradient (surface minus level 13), retrieved-apriori)",
+                  "value": "/Retrieval/co2_grad_del"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "deltaT (Retrieved Offset to Prior Temperature Profile in Kelvin)",
+                  "value": "/Retrieval/deltaT"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "diverging_steps",
+                  "value": "/Retrieval/diverging_steps"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "dp_o2a (Delta Psurf from L2, O2A-band Prior)",
+                  "value": "/Retrieval/dp_o2a"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "dp_sco2 (Delta Psurf from L2, SCO2-band Prior)",
+                  "value": "/Retrieval/dp_sco2"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "dpfrac",
+                  "value": "/Retrieval/dpfrac"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "dws (Dust+Water+SeaSalt)",
+                  "value": "/Retrieval/dws"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "eof3_3_rel (3rd EOF of Band 3, relative to Signal)",
+                  "value": "/Retrieval/eof3_3_rel"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "fs (Retrieved Fluorescence at 757 nm)",
+                  "value": "/Retrieval/fs"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "h2o_scale (Retrieved scale factor to Prior Water Vapor Profile)",
+                  "value": "/Retrieval/h2o_scale"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "ice_height (Ice Cloud Height)",
+                  "value": "/Retrieval/ice_height"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "iterations",
+                  "value": "/Retrieval/iterations"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "land_brdf_weight_o2a (Band 1 BRDF Amplitude (land only))",
+                  "value": "/Retrieval/land_brdf_weight_o2a"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "land_brdf_weight_sco2 (Band 3 BRDF Amplitude (land only))",
+                  "value": "/Retrieval/land_brdf_weight_sco2"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "land_brdf_weight_wco2 (Band 2 BRDF Amplitude (land only))",
+                  "value": "/Retrieval/land_brdf_weight_wco2"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "psurf (Retrieved Surface Pressure)",
+                  "value": "/Retrieval/psurf"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "psurf_apriori_b8 (B8 Prior Surface Pressure)",
+                  "value": "/Retrieval/psurf_apriori_b8"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "rms_rel_sco2 (relative_rms_strong_co2_band)",
+                  "value": "/Retrieval/rms_rel_sco2"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "rms_rel_wco2 (relative_rms_weak_co2_band)",
+                  "value": "/Retrieval/rms_rel_wco2"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "s31 (Signal_band3/Signal_band1)",
+                  "value": "/Retrieval/s31"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "s32 (Signal_band3/Signal_band2)",
+                  "value": "/Retrieval/s32"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "surface_type (Surface Type)",
+                  "value": "/Retrieval/surface_type"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "t700 (Temperature at 700 hPa (from GEOS5-FP-IT))",
+                  "value": "/Retrieval/t700"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "tcwv (Total Column Water Vapor)",
+                  "value": "/Retrieval/tcwv"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "tcwv_apriori (Total Column Water Vapor A Priori)",
+                  "value": "/Retrieval/tcwv_apriori"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "tcwv_uncertainty",
+                  "value": "/Retrieval/tcwv_uncertainty"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "windspeed (Retrieved Surface Wind Speed)",
+                  "value": "/Retrieval/windspeed"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "windspeed_apriori (Prior Surface Wind Speed)",
+                  "value": "/Retrieval/windspeed_apriori"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "xco2_raw (Raw value of Retrieved XCO2)",
+                  "value": "/Retrieval/xco2_raw"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "aod_fine_apriori (Prior Organic Carbon + Sulfate)",
+                  "value": "/Retrieval/aod_fine_apriori"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "tcwv_uncertainty (Total Column Water Vapor Uncertainty)",
+                  "value": "/Retrieval/tcwv_uncertainty"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "brdf_weight_slope_sco2 (Retrieved Band 3 BRDF slope weight)",
+                  "value": "/Retrieval/brdf_weight_slope_sco2"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "brdf_weight_slope_wco2 (Retrieved Band 2 BRDF slope weight)",
+                  "value": "/Retrieval/brdf_weight_slope_wco2"
+                },
+                {
+                  "group": "/Retrieval",
+                  "label": "dws_apriori (Prior Dust+Water+SeaSalt)",
+                  "value": "/Retrieval/dws_apriori"
+                },
+                {
+                  "group": "/Sounding",
+                  "label": "airmass (relative_airmass)",
+                  "value": "/Sounding/airmass"
+                },
+                {
+                  "group": "/Sounding",
+                  "label": "altitude (B9 Altitude)",
+                  "value": "/Sounding/altitude"
+                },
+                {
+                  "group": "/Sounding",
+                  "label": "altitude_stddev (B9 Altitude Stddev)",
+                  "value": "/Sounding/altitude_stddev"
+                },
+                {
+                  "group": "/Sounding",
+                  "label": "footprint (Footprint Number)",
+                  "value": "/Sounding/footprint"
+                },
+                {
+                  "group": "/Sounding",
+                  "label": "glint_angle (sounding_glint_angle)",
+                  "value": "/Sounding/glint_angle"
+                },
+                {
+                  "group": "/Sounding",
+                  "label": "land_fraction (Land Fraction)",
+                  "value": "/Sounding/land_fraction"
+                },
+                {
+                  "group": "/Sounding",
+                  "label": "land_water_indicator (B9 Land Water Indicator)",
+                  "value": "/Sounding/land_water_indicator"
+                },
+                {
+                  "group": "/Sounding",
+                  "label": "operation_mode (OCO-2 Operation Mode: 0=Nadir, 1=Glint, 2=Target, 3=Transition to/from Target)",
+                  "value": "/Sounding/operation_mode"
+                },
+                {
+                  "group": "/Sounding",
+                  "label": "orbit (orbit number)",
+                  "value": "/Sounding/orbit"
+                },
+                {
+                  "group": "/Sounding",
+                  "label": "path (OCO-2 orbit path number)",
+                  "value": "/Sounding/path"
+                },
+                {
+                  "group": "/Sounding",
+                  "label": "sensor_azimuth_angle (sounding_azimuth)",
+                  "value": "/Sounding/sensor_azimuth_angle"
+                },
+                {
+                  "group": "/Sounding",
+                  "label": "snr_o2a (snr_O2_L1b)",
+                  "value": "/Sounding/snr_o2a"
+                },
+                {
+                  "group": "/Sounding",
+                  "label": "snr_sco2 (snr_strong_CO2_L1b)",
+                  "value": "/Sounding/snr_sco2"
+                },
+                {
+                  "group": "/Sounding",
+                  "label": "snr_wco2 (snr_weak_CO2_L1b)",
+                  "value": "/Sounding/snr_wco2"
+                },
+                {
+                  "group": "/Sounding",
+                  "label": "solar_azimuth_angle (sounding_solar_azimuth)",
+                  "value": "/Sounding/solar_azimuth_angle"
+                },
+                {
+                  "group": "",
+                  "label": "co2_profile_apriori (CO2 Apriori Profile)",
+                  "value": "/co2_profile_apriori"
+                },
+                {
+                  "group": "",
+                  "label": "date (Observation date and time matching sounding_id)",
+                  "value": "/date"
+                },
+                {
+                  "group": "",
+                  "label": "file_index (L2 File Index)",
+                  "value": "/file_index"
+                },
+                {
+                  "group": "",
+                  "label": "pressure_levels (Pressure_Levels)",
+                  "value": "/pressure_levels"
+                },
+                {
+                  "group": "",
+                  "label": "pressure_weight (Pressure Weighting Function)",
+                  "value": "/pressure_weight"
+                },
+                {
+                  "group": "",
+                  "label": "sensor_zenith_angle (sounding_zenith)",
+                  "value": "/sensor_zenith_angle"
+                },
+                {
+                  "group": "",
+                  "label": "solar_zenith_angle (sounding_solar_zenith)",
+                  "value": "/solar_zenith_angle"
+                },
+                {
+                  "group": "",
+                  "label": "vertex_latitude",
+                  "value": "/vertex_latitude"
+                },
+                {
+                  "group": "",
+                  "label": "vertex_longitude",
+                  "value": "/vertex_longitude"
+                },
+                {
+                  "group": "",
+                  "label": "xco2 (XCO2)",
+                  "value": "/xco2"
+                },
+                {
+                  "group": "",
+                  "label": "xco2_apriori (A priori XCO2 Value)",
+                  "value": "/xco2_apriori"
+                },
+                {
+                  "group": "",
+                  "label": "xco2_averaging_kernel (XCO2 Column Averaging Kernel)",
+                  "value": "/xco2_averaging_kernel"
+                },
+                {
+                  "group": "",
+                  "label": "xco2_qf_bitflag (B9 xco2_quality_flag bitflag)",
+                  "value": "/xco2_qf_bitflag"
+                },
+                {
+                  "group": "",
+                  "label": "xco2_quality_flag (XCO2_Quality_Flag)",
+                  "value": "/xco2_quality_flag"
+                },
+                {
+                  "group": "",
+                  "label": "xco2_uncertainty (XCO2_Posterior_Error)",
+                  "value": "/xco2_uncertainty"
+                }
+              ],
+              "diurnalMean": false,
+              "forceTimeParameter": true,
+              "formats": [
+                {
+                  "label": "netCDF",
+                  "value": "netCDF",
+                  "valueOriginal": "nc4"
+                }
+              ],
+              "osdd": "https://cmr.earthdata.nasa.gov/opensearch/granules/descriptor_document.xml?utf8=%E2%9C%93&clientId=UUI&shortName=OCO2_L2_Lite_FP&versionId=11r&dataCenter=&commit=Generate",
+              "presentations": [
+                {
+                  "label": "Spatial dimensions will be trimmed to data. (Default)",
+                  "value": "CROP"
+                },
+                {
+                  "label": "Spatial dimensions will remain at original lengths.",
+                  "value": "FULL"
+                },
+                {
+                  "label": "Spatial dimensions will be reduced to a single data stream dimension.",
+                  "value": "VECTOR"
+                }
+              ],
+              "requiredParams": [
+                "format",
+                "box"
+              ],
+              "serviceAgent": "httpservice",
+              "spatialModes": [
+                "bbox",
+                "circle",
+                "point"
+              ],
+              "spatialServices": [
+                "search",
+                "crop"
+              ],
+              "timeSelection": true
+            }
+          ]
+        },
+        "servicesSummary": {
+          "agents": [
+            "OpenSearch",
+            "HTTP Service"
+          ],
+          "availableServices": "subset",
+          "capabilities": [
+            "Temporal search",
+            "Spatial search and subset",
+            "Format conversion",
+            "Subset service selection",
+            "Selection of variables",
+            "Selection of time of day",
+            "Data presentation"
+          ]
+        },
+        "shortName": "OCO2_L2_Lite_FP",
+        "source": [
+          "OCO-2 OCO-2"
+        ],
+        "spatialCoverage": "-180.0,-90.0,180.0,90.0",
+        "spatialRes": [
+          "2.25 km x 1.29 km"
+        ],
+        "spatialResAreaRange": [
+          2.9025,
+          2.9025
+        ],
+        "startDate": 1409961600000,
+        "startDateClosed": true,
+        "tempRes": [
+          "16 days"
+        ],
+        "tempResIntervalRange": [
+          1382400,
+          1382400
+        ],
+        "userGuides": [
+          {
+            "label": "README document",
+            "link": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OCO/README.OCO2.pdf",
+            "priority": 0,
+            "subgroup": "User guide",
+            "subtype": "READ-ME",
+            "type": "VIEW RELATED INFORMATION"
+          },
+          {
+            "label": "User's Guide",
+            "link": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OCO/OCO2_V11_OCO3_V10_DUG.pdf",
+            "priority": 0,
+            "subgroup": "User guide",
+            "subtype": "USER'S GUIDE",
+            "type": "VIEW RELATED INFORMATION"
+          },
+          {
+            "label": "OCO_L2_ATBD.pdf",
+            "link": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OCO/OCO_L2_ATBD.pdf",
+            "priority": 0,
+            "subgroup": "User guide",
+            "subtype": "ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)",
+            "type": "VIEW RELATED INFORMATION"
+          }
+        ],
+        "version": "11r"
+      }
+    ],
+    "itemsPerPage": 1,
+    "startIndex": 0,
+    "totalResults": 1
+  },
+  "servicename": "UUI dataset service",
+  "type": "jsonwsp/response",
+  "version": "1.0"
+}
